@@ -1,3 +1,51 @@
+ 
+/* ============================================ popup =============================================== */
+#yes{
+    background: #43cb83;
+    padding:20px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#ffffff;
+}
+#no{
+    background:rgba(255, 0, 0, 0.336);
+    padding:20px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#ffffff;
+}
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.945);
+    z-index: 1001;
+}
+#popup {
+    max-width:50%;
+    height: 375px;
+    background: #FFFFFF;
+    border: 5px solid #43cb83;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 150px;
+    left: 375px;
+    text-align: center;
+    padding-top: 30px;
+    width: 50%;
+    left: 30%;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -ms-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -o-box-shadow: #64686e 0px 0px 3px 3px;
+}
 /* ============================================ preloader =============================================== */
 .preloader {
     position: fixed;
@@ -89,13 +137,22 @@
     background:transparent;
     overflow: hidden;
     transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
     z-index: 99999;
 }
 .header-area.sticky{
     position: fixed;
     width:100%;
-    box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
     background: white!important;
+    -webkit-border-radius: 25px;
+    box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
+    -ms-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
+    -o-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
 }
 .container{
     max-width: 1200px;
@@ -141,9 +198,13 @@
     left: 50%;
     bottom: 0%;
     border-radius: 10px;
-    transition: all 450ms ease;
     position: absolute;
     background-color:#43cb83;
+    transition: all 450ms ease;
+    -webkit-transition: all 450ms ease;
+    -moz-transition: all 450ms ease;
+    -ms-transition: all 450ms ease;
+    -o-transition: all 450ms ease;
 }
 .menu-area a{
     position: relative;
@@ -167,9 +228,17 @@
     font-size: 16px;
     border-radius: 30px;
     border: none;
-    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
     cursor: pointer;
-    transition:.55s;
+    transition: .55s;
+    -webkit-transition: .55s;
+    -moz-transition:.55s;
+    -ms-transition:.55s;
+    -o-transition: .55s;
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -o-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
 }
 .header-button button:hover{
     background:#43cb83;
@@ -211,12 +280,20 @@
     border: none;
     padding: 20px 40px;
     transition:.55s;
+    -moz-transition:.55s;
+    -ms-transition:.55s;
+    -o-transition:.55s;
+    -webkit-transition:.55s;
     cursor: pointer;
 }
 .background-text button:hover{
     color: #1dbe68;
     background: #ffffff;
     box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.294);
+    -moz-box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.294);
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.294);
+    -ms-box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.294);
+    -o-box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.294);
 }
 .background-text button:focus{
     outline: none;
@@ -224,6 +301,12 @@
 /* ============================================ about =============================================== */
 .box-content{
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -302,6 +385,12 @@
 }
 .counterup{
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     flex-wrap: wrap;
 }
 .counter-content h4{
@@ -342,6 +431,12 @@
     align-items:center;
     transform:translateY(40%);
     flex-wrap: wrap;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -383,14 +478,23 @@
     background: rgb(255 254 254);
     top: -140px;
     margin: 1rem;
-    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
     border-radius: 5px;
     background-size: contain;
     background-position: right;
     margin-left:40%;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    -ms-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
 }
 .backgroundform .childDiv .signup{
     display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -429,6 +533,7 @@
 }
 .backgroundform .childDiv .signup input[type='password']{
     flex: 1 1 100%;
+    -o-flex: 1 1 100%;
     margin-bottom: .5rem;
     padding: 1rem;
     font-size: 14px;
@@ -443,6 +548,12 @@
 .backgroundform .childDiv .signup input[type='submit']{
     flex: 1 1 20%;
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     justify-content: center;
     align-items: center;
     padding: .8rem 2rem;
@@ -480,6 +591,12 @@
 .backgroundform .childDiv .signup h5{
     padding:30px 0px;
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Slab',sans-serif;
@@ -495,6 +612,12 @@
     font-size:13px;
     color:#87959c;
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     justify-content: flex-start;
     word-spacing:1px;
 }
@@ -542,6 +665,10 @@
     background: #ffffff;
     color:#43cb83;
     box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+    -o-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
 }
 .news-button button:focus{
     outline: none;
@@ -588,6 +715,12 @@ body{
 }
 .footer {
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
@@ -620,6 +753,12 @@ body{
 }
 .r-footer {
     display: flex;
+    display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -webkit-display:flex;
+    -ms-display:flex;
+    -moz-display:flex;
     flex-flow: row wrap;
 }
 .r-footer > * {

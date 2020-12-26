@@ -17,3 +17,26 @@ $('.counter').counterUp({
  time:2500
 });
 });
+
+
+function PopUp(){
+    var acwrapper = document.getElementById('ac-wrapper');
+    var yes = document.getElementById("yes");
+    var no = document.getElementById("no");
+            
+   yes.addEventListener("click",function(){
+    location.href="https://tasnimmohona.github.io/Educational_Institute/"
+    var d = new Date();
+    var s = document.getElementById(+d.getDay());
+    s.style.display = (s.style.display == 'block') ? 'none' : 'block';
+  });
+       
+           
+   no.addEventListener("click",function(){
+    alert("Sorryy! you are not eligible");
+
+  });
+
+
+
+}
