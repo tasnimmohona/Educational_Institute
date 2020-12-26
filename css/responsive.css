@@ -1,0 +1,80 @@
+@media only screen and (min-width:200px) and (max-width: 940px) {
+    .logo {
+        width: 100%!important;
+        text-align: center!important;
+   }
+   .menu-area{
+        width: 90%!important;
+        text-align: center!important;
+   }
+    .header-button{
+        width:100%!important;
+       ;
+        text-align: center!important;
+        margin:0px!important;
+       ;
+   }
+    .menu-area ul li a{
+        margin: 2px 0px!important;
+   }
+    .menu-area ul li{
+        padding:5px 10px!important;
+   }
+    .about-box{
+        width: 100%!important;
+        text-align: center!important;
+   }
+    .lower-content{
+        width: 40%;
+        float: left;
+        margin:10px 40px;
+        line-height: 200%;
+   }
+   .background-text{
+    padding-bottom:150px!important;
+    padding-bottom:150px!important;
+
+}
+
+   }
+}
+@media only screen and (min-width:740px) and (max-width: 1400px) {
+    .backgroundform p,.backgroundform h4{
+        font-size:16px!important;
+        width: 100%!important;
+   }
+}
+@media only screen and (min-width:200px) and (max-width:1200px) {
+    .backgroundform p,.backgroundform h4{
+        display: none!important;
+   }
+    .backgroundform .childDiv{
+        margin-left:0%!important;
+        margin-top: 20%!important;
+        background: url("../images/formbackground.png")!important;
+        max-width: 80%!important;
+        padding:2rem!important;
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+   }
+    #news{
+        padding-top:700px!important;
+   }
+    .news-content{
+        margin-left: 50px!important;
+   }
+   /* admission */
+    #admission img{
+        display: none;
+   }
+    .admission-right{
+        width: 100%!important;
+        text-align: canter !important;
+        margin-top: 100px!important;
+        margin-bottom: 100px!important;
+        margin-left: 10px!important;
+   }
+    .spantext{
+        display: none!important;
+   }
+}
