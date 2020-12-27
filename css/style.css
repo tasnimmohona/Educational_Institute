@@ -3,16 +3,19 @@
 #yes{
     background: #43cb83;
     padding:20px 30px;
-    margin-top: 10px;
     cursor: pointer;
     color:#ffffff;
+    border:transparent;
+    border-radius: 10px;
+    margin:50px 5px;
 }
 #no{
-    background:rgba(255, 0, 0, 0.336);
+    background:rgba(255, 0, 0, 0.945);
     padding:20px 30px;
-    margin-top: 10px;
     cursor: pointer;
     color:#ffffff;
+    border:transparent;
+    border-radius: 10px;
 }
 #ac-wrapper {
     position: fixed;
@@ -45,6 +48,7 @@
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -o-box-shadow: #64686e 0px 0px 3px 3px;
+
 }
 /* ============================================ preloader =============================================== */
 .preloader {
@@ -264,12 +268,15 @@
 .background-text h1{
     font-size: 40px;
     color: #43cb83;
+ 
+
 }
 .background-text p{
     font-size:17.97px;
     color:#5a6e79;
     padding-top: 10px;
     padding-bottom: 20px;
+
 }
 .background-text button{
     color:#ffffff;
@@ -284,6 +291,7 @@
     -o-transition:.55s;
     -webkit-transition:.55s;
     cursor: pointer;
+
 }
 .background-text button:hover{
     color: #1dbe68;
@@ -381,6 +389,7 @@
     color:#5a6e79;
     font-size: 16px;
     margin-top: 20px;
+
 }
 .counterup{
     display: flex;
@@ -444,7 +453,6 @@
     display: flex;
     margin-left: 16%;
     color:#252c3a;
-    font-family: 'Roboto Slab',sans-serif;
     font-size: 40px;
     padding-bottom: 8%;
     font-weight:lighter;
@@ -522,7 +530,6 @@
     margin-bottom: .5rem;
     padding: 1rem;
     font-size: 14px;
-    font-family: 'Roboto Slab',sans-serif;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -536,7 +543,6 @@
     margin-bottom: .5rem;
     padding: 1rem;
     font-size: 14px;
-    font-family: 'Roboto Slab',sans-serif;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -579,7 +585,6 @@
     align-items: center;
     flex-wrap: wrap;
     font-size: 13px;
-    font-family: 'Roboto Slab',sans-serif;
     color: #778b60;
     padding-left: 2%;
     word-spacing: 5px;
@@ -598,7 +603,6 @@
     -moz-display:flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Slab',sans-serif;
     color: #202020;
     text-align: center;
     font-size: 24px;
@@ -707,6 +711,11 @@ body{
     display: grid;
     margin: 0;
     padding: 0;
+  
+}
+.body, body * {
+    font-family: 'Open Sans', sans-serif;
+
 }
 .box li span{
     color:#6b6b6b;

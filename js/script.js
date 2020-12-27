@@ -19,25 +19,24 @@ $('.counter').counterUp({
 });
 
 
-// function PopUp(){
-//     var acwrapper = document.getElementById('ac-wrapper');
-//     var yes = document.getElementById("yes");
-//     var no = document.getElementById("no");
+    var acwrapper = document.getElementById('ac-wrapper');
+    var yes = document.getElementById("yes");
+    var no = document.getElementById("no");
             
-//    yes.addEventListener("click",function(){
-//      location.href="https://tasnimmohona.github.io/Educational_Institute/"
-//     // var d = new Date();
-//     // var s = document.getElementById(+d.getDay());
-//     // acwrapper.style.display = (acwrapper.style.display == 'block') ? 'none' : 'block';
-//   });
+   yes.addEventListener("click",function(){
+     location.href="https://tasnimmohona.github.io/Educational_Institute/"
+    //  var d = new Date();
+    //  var s = document.getElementById(+d.getDay());
+    //   acwrapper.style.display = (acwrapper.style.display == 'block') ? 'none' : 'block';
+   });
 
        
            
-//    no.addEventListener("click",function(){
-//     alert("Sorryy! you are not eligible");
+   no.addEventListener("click",function(){
+     alert("Sorryy! you are not eligible");
 
-//   });
+  });
 
 
 
-// }
+ 
