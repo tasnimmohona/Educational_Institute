@@ -22,21 +22,25 @@ $('.counter').counterUp({
     var acwrapper = document.getElementById('ac-wrapper');
     var yes = document.getElementById("yes");
     var no = document.getElementById("no");
+    function PopUp(){
+      yes.addEventListener("click",function(){
+        yes.style.display=" https://tasnimmohona.github.io/Educational_Institute/"
+       //  var d = new Date();
+       //  var s = document.getElementById(+d.getDay());
+       //   acwrapper.style.display = (acwrapper.style.display == 'block') ? 'none' : 'block';
+      });
+   
+          
+              
+      no.addEventListener("click",function(){
+        alert("Sorryy! you are not eligible");
+   
+     });
+
+    }
             
-   yes.addEventListener("click",function(){
-     location.href="https://tasnimmohona.github.io/Educational_Institute/"
-    //  var d = new Date();
-    //  var s = document.getElementById(+d.getDay());
-    //   acwrapper.style.display = (acwrapper.style.display == 'block') ? 'none' : 'block';
-   });
 
-       
-           
-   no.addEventListener("click",function(){
-     alert("Sorryy! you are not eligible");
-
-  });
-
+  
 
 
  
