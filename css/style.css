@@ -1,55 +1,4 @@
- 
-/* ============================================ popup =============================================== */
-#yes{
-    background: #43cb83;
-    padding:20px 30px;
-    cursor: pointer;
-    color:#ffffff;
-    border:transparent;
-    border-radius: 10px;
-    margin:50px 5px;
-}
-#no{
-    background:rgba(255, 0, 0, 0.945);
-    padding:20px 30px;
-    cursor: pointer;
-    color:#ffffff;
-    border:transparent;
-    border-radius: 10px;
-}
-#ac-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.945);
-    z-index: 1001;
-}
-#popup {
-    max-width:50%;
-    height: 375px;
-    background: #FFFFFF;
-    border: 5px solid #43cb83;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-box-shadow: #64686e 0px 0px 3px 3px;
-    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    top: 150px;
-    left: 375px;
-    text-align: center;
-    padding-top: 30px;
-    width: 50%;
-    left: 30%;
-    box-shadow: #64686e 0px 0px 3px 3px;
-    -ms-box-shadow: #64686e 0px 0px 3px 3px;
-    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    -moz-box-shadow: #64686e 0px 0px 3px 3px;
-    -o-box-shadow: #64686e 0px 0px 3px 3px;
 
-}
 /* ============================================ preloader =============================================== */
 .preloader {
     position: fixed;
@@ -706,7 +655,7 @@
 .spantext{
     margin-left: 50%;
 }
-/* ============================================ footer =============================================== */
+/*============================================ footer =============================================== */
 body{
     display: grid;
     margin: 0;
@@ -848,4 +797,46 @@ body{
     .r-footer {
         flex: 2 0px;
    }
+}
+
+#popUpmain{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 223, 155, 0.712);
+    z-index: 99999;
+
+}
+#popup{
+    width: 500px;
+    height: 300px;
+    background-size:cover;
+    position: absolute;
+    top:35%;
+    left:32%;
+    transform: translateY(-50%,-50%);
+    box-shadow: 1px 2px 5px 3px white;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.801);
+
+}
+#newsHeading{
+    transform: translateY(50px);
+    color:#ffffff;
+}
+#emailId{
+    width: 60%;
+    padding:5px;
+    margin-top: 80px;
+    margin-bottom:20px;
+
+
+}
+#subscribeId{
+    background:#43cb83;
+    font-size: 1rem;
+    border: none;
+    padding: 0.6rem 1rem;
+    color:white;
+    cursor:pointer;
 }
